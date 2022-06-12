@@ -4,6 +4,9 @@ public class Person {
         account = new Account();
     }
     public int getValue() {
-        return account.getAccount();
+        if (account.a < account.b) {
+            System.out.println("a < b");
+        }
+        return account.a + account.b;
     }
 }
